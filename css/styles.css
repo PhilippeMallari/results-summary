@@ -6,3 +6,11 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.left-card {
+    width: 100%;
+}
+
+.right-card {
+    width: 100%;
+}
