@@ -1,3 +1,41 @@
+/* This is the start of fonts editing */
+@font-face {
+    font-family: "HankenGrotesk-Bold";
+    src: url("../assets/fonts/static/HankenGrotesk-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HankenGrotesk-ExtraBold";
+    src: url("../assets/fonts/static/HankenGrotesk-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HankenGrotesk-Medium";
+    src: url("../assets/fonts/static/HankenGrotesk-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HankenGrotesk";
+    src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+
+.font-one {
+    font-family: "HankenGrotesk-Bold";
+}
+
+.font-two {
+    font-family: "HankenGrotesk-ExtraBold";
+}
+
+.font-three {
+    font-family: "HankenGrotesk-Medium";
+}
+
+.font-four {
+    font-family: "HankenGrotesk";
+}
+/* End font editing */
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -7,9 +45,28 @@
     color: hsl(228, 45%, 44%);
 }
 
+/* Left card styling */
 .left-card {
     width: 100%;
+    background-color: rgba(95, 63, 252) !important;
 }
+
+.text-style {
+    color: rgba(215, 198, 255) !important;
+}
+
+.circle-background {
+    background-color: rgb(71, 44, 221);
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+/* End left card styling. */
 
 .right-card {
     width: 100%;
