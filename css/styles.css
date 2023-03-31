@@ -47,7 +47,7 @@
 
 /* Left card styling */
 .left-card {
-    width: 100%;
+    width: 300px !important;
     background-color: rgba(95, 63, 252) !important;
 }
 
@@ -64,10 +64,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 /* End left card styling. */
 
 .right-card {
+    width: 300px !important;
+}
+
+.card {
     width: 100%;
+    border-radius: 20px !important;
+}
+
+.container .d-flex {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
 }
