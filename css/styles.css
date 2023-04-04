@@ -66,10 +66,28 @@
     align-items: center;
     margin: 0 auto !important;
 }
+
+.circle-background h1 {
+    font-size: 45px;
+    font-family: "HankenGrotesk-ExtraBold";
+}
 /* End left card styling. */
 
+/* Right card styling */
 .right-card {
     width: 300px !important;
+}
+
+.right-card-heading {
+    text-align: left !important;
+    margin-left: 20px;
+}
+
+/* End of right card styling */
+
+.card-body h5 {
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .card {
@@ -81,4 +99,11 @@
     display: flex;
     justify-content: center;
     margin: 0 auto !important;
+}
+
+button {
+    background-color: rgb(48, 59, 89) !important;
+    width: 85%;
+    height: 45px;
+    border-radius: 100px !important;
 }
